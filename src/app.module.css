@@ -1,0 +1,15 @@
+.main {
+    margin: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-inline-size: 600px;
+    margin: 20px auto;
+}
+
+.select {
+    inline-size: 200px;
+}

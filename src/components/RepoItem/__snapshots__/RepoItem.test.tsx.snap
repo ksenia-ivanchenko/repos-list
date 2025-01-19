@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoItem should create RepoItem 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <li
+        class="repoCard"
+      >
+        <div
+          class="repo"
+        >
+          <div
+            class="cardHeader"
+          >
+            <div
+              class="ownerInfo"
+            >
+              <span
+                class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-nqoqt9"
+                data-testid="avatar"
+              >
+                <img
+                  alt="owner avatar"
+                  src="https://avatars.githubusercontent.com/u/2918581?v=4"
+                />
+              </span>
+              <h3
+                data-testid="owner"
+              >
+                twbs
+              </h3>
+            </div>
+            <div
+              class="buttons"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-nqoqt9 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+                data-testid="edit-button"
+                type="button"
+              >
+                <span
+                  class="ant-btn-icon"
+                >
+                  <span
+                    aria-label="form"
+                    class="anticon anticon-form"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="form"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M904 512h-56c-4.4 0-8 3.6-8 8v320H184V184h320c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V520c0-4.4-3.6-8-8-8z"
+                      />
+                      <path
+                        d="M355.9 534.9L354 653.8c-.1 8.9 7.1 16.2 16 16.2h.4l118-2.9c2-.1 4-.9 5.4-2.3l415.9-415c3.1-3.1 3.1-8.2 0-11.3L785.4 114.3c-1.6-1.6-3.6-2.3-5.7-2.3s-4.1.8-5.7 2.3l-415.8 415a8.3 8.3 0 00-2.3 5.6zm63.5 23.6L779.7 199l45.2 45.1-360.5 359.7-45.7 1.1.7-46.4z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="ant-btn css-dev-only-do-not-override-nqoqt9 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+                data-testid="delete-button"
+                type="button"
+              >
+                <span
+                  class="ant-btn-icon"
+                >
+                  <span
+                    aria-label="delete"
+                    class="anticon anticon-delete"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="delete"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <p
+            data-testid="repo-link"
+          >
+            Посмотреть репозиторий:
+             
+            <a
+              class="repoName"
+              href="https://github.com/twbs/bootstrap"
+              target="_blank"
+            >
+              bootstrap
+            </a>
+          </p>
+          <p
+            data-testid="repo-description"
+          >
+            The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+          </p>
+          <div
+            class="cardFooter"
+          >
+            <div
+              class="forks"
+              data-testid="forks"
+            >
+              <span
+                aria-label="fork"
+                class="anticon anticon-fork"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="fork"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M752 100c-61.8 0-112 50.2-112 112 0 47.7 29.9 88.5 72 104.6v27.6L512 601.4 312 344.2v-27.6c42.1-16.1 72-56.9 72-104.6 0-61.8-50.2-112-112-112s-112 50.2-112 112c0 50.6 33.8 93.5 80 107.3v34.4c0 9.7 3.3 19.3 9.3 27L476 672.3v33.6c-44.2 15-76 56.9-76 106.1 0 61.8 50.2 112 112 112s112-50.2 112-112c0-49.2-31.8-91-76-106.1v-33.6l226.7-291.6c6-7.7 9.3-17.3 9.3-27v-34.4c46.2-13.8 80-56.7 80-107.3 0-61.8-50.2-112-112-112zM224 212a48.01 48.01 0 0196 0 48.01 48.01 0 01-96 0zm336 600a48.01 48.01 0 01-96 0 48.01 48.01 0 0196 0zm192-552a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
+                  />
+                </svg>
+              </span>
+              <span>
+                78942
+              </span>
+            </div>
+            <span
+              data-testid="update"
+            >
+              обновлено
+               
+              1/18/2025, 1:41:46 PM
+            </span>
+          </div>
+        </div>
+      </li>
+    </div>
+  </body>,
+  "container": <div>
+    <li
+      class="repoCard"
+    >
+      <div
+        class="repo"
+      >
+        <div
+          class="cardHeader"
+        >
+          <div
+            class="ownerInfo"
+          >
+            <span
+              class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-nqoqt9"
+              data-testid="avatar"
+            >
+              <img
+                alt="owner avatar"
+                src="https://avatars.githubusercontent.com/u/2918581?v=4"
+              />
+            </span>
+            <h3
+              data-testid="owner"
+            >
+              twbs
+            </h3>
+          </div>
+          <div
+            class="buttons"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-nqoqt9 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+              data-testid="edit-button"
+              type="button"
+            >
+              <span
+                class="ant-btn-icon"
+              >
+                <span
+                  aria-label="form"
+                  class="anticon anticon-form"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="form"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M904 512h-56c-4.4 0-8 3.6-8 8v320H184V184h320c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V520c0-4.4-3.6-8-8-8z"
+                    />
+                    <path
+                      d="M355.9 534.9L354 653.8c-.1 8.9 7.1 16.2 16 16.2h.4l118-2.9c2-.1 4-.9 5.4-2.3l415.9-415c3.1-3.1 3.1-8.2 0-11.3L785.4 114.3c-1.6-1.6-3.6-2.3-5.7-2.3s-4.1.8-5.7 2.3l-415.8 415a8.3 8.3 0 00-2.3 5.6zm63.5 23.6L779.7 199l45.2 45.1-360.5 359.7-45.7 1.1.7-46.4z"
+                    />
+                  </svg>
+                </span>
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-nqoqt9 ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+              data-testid="delete-button"
+              type="button"
+            >
+              <span
+                class="ant-btn-icon"
+              >
+                <span
+                  aria-label="delete"
+                  class="anticon anticon-delete"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="delete"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                    />
+                  </svg>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <p
+          data-testid="repo-link"
+        >
+          Посмотреть репозиторий:
+           
+          <a
+            class="repoName"
+            href="https://github.com/twbs/bootstrap"
+            target="_blank"
+          >
+            bootstrap
+          </a>
+        </p>
+        <p
+          data-testid="repo-description"
+        >
+          The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+        </p>
+        <div
+          class="cardFooter"
+        >
+          <div
+            class="forks"
+            data-testid="forks"
+          >
+            <span
+              aria-label="fork"
+              class="anticon anticon-fork"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="fork"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M752 100c-61.8 0-112 50.2-112 112 0 47.7 29.9 88.5 72 104.6v27.6L512 601.4 312 344.2v-27.6c42.1-16.1 72-56.9 72-104.6 0-61.8-50.2-112-112-112s-112 50.2-112 112c0 50.6 33.8 93.5 80 107.3v34.4c0 9.7 3.3 19.3 9.3 27L476 672.3v33.6c-44.2 15-76 56.9-76 106.1 0 61.8 50.2 112 112 112s112-50.2 112-112c0-49.2-31.8-91-76-106.1v-33.6l226.7-291.6c6-7.7 9.3-17.3 9.3-27v-34.4c46.2-13.8 80-56.7 80-107.3 0-61.8-50.2-112-112-112zM224 212a48.01 48.01 0 0196 0 48.01 48.01 0 01-96 0zm336 600a48.01 48.01 0 01-96 0 48.01 48.01 0 0196 0zm192-552a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
+                />
+              </svg>
+            </span>
+            <span>
+              78942
+            </span>
+          </div>
+          <span
+            data-testid="update"
+          >
+            обновлено
+             
+            1/18/2025, 1:41:46 PM
+          </span>
+        </div>
+      </div>
+    </li>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,54 @@
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border: none;
+}
+
+.repoCard {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.repo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.repoName {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.ownerInfo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+}
+
+.forks {
+    display: flex;
+    gap: 5px;
+}

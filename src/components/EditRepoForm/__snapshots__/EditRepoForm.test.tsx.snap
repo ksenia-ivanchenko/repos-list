@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditRepoForm should create EditRepoForm 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        class="ant-form ant-form-horizontal css-dev-only-do-not-override-nqoqt9 form"
+        data-testid="edit-form"
+        id="edit"
+      >
+        <div
+          class="ant-form-item css-dev-only-do-not-override-nqoqt9"
+        >
+          <div
+            class="ant-row ant-form-item-row css-dev-only-do-not-override-nqoqt9"
+          >
+            <div
+              class="ant-col ant-form-item-label css-dev-only-do-not-override-nqoqt9"
+            >
+              <label
+                class=""
+                for="edit_repo"
+                title="Название репозитория"
+              >
+                Название репозитория
+              </label>
+            </div>
+            <div
+              class="ant-col ant-form-item-control css-dev-only-do-not-override-nqoqt9"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <input
+                    class="ant-input css-dev-only-do-not-override-nqoqt9 ant-input-outlined"
+                    id="edit_repo"
+                    type="text"
+                    value="bootstrap"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-form-item css-dev-only-do-not-override-nqoqt9"
+        >
+          <div
+            class="ant-row ant-form-item-row css-dev-only-do-not-override-nqoqt9"
+          >
+            <div
+              class="ant-col ant-form-item-label css-dev-only-do-not-override-nqoqt9"
+            >
+              <label
+                class=""
+                for="edit_owner"
+                title="Имя владельца"
+              >
+                Имя владельца
+              </label>
+            </div>
+            <div
+              class="ant-col ant-form-item-control css-dev-only-do-not-override-nqoqt9"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <input
+                    class="ant-input css-dev-only-do-not-override-nqoqt9 ant-input-outlined"
+                    id="edit_owner"
+                    type="text"
+                    value="twbs"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-form-item submit css-dev-only-do-not-override-nqoqt9"
+        >
+          <div
+            class="ant-row ant-form-item-row css-dev-only-do-not-override-nqoqt9"
+          >
+            <div
+              class="ant-col ant-form-item-control css-dev-only-do-not-override-nqoqt9"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-nqoqt9 ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+                    type="submit"
+                  >
+                    <span>
+                      Сохранить
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="ant-form ant-form-horizontal css-dev-only-do-not-override-nqoqt9 form"
+      data-testid="edit-form"
+      id="edit"
+    >
+      <div
+        class="ant-form-item css-dev-only-do-not-override-nqoqt9"
+      >
+        <div
+          class="ant-row ant-form-item-row css-dev-only-do-not-override-nqoqt9"
+        >
+          <div
+            class="ant-col ant-form-item-label css-dev-only-do-not-override-nqoqt9"
+          >
+            <label
+              class=""
+              for="edit_repo"
+              title="Название репозитория"
+            >
+              Название репозитория
+            </label>
+          </div>
+          <div
+            class="ant-col ant-form-item-control css-dev-only-do-not-override-nqoqt9"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <input
+                  class="ant-input css-dev-only-do-not-override-nqoqt9 ant-input-outlined"
+                  id="edit_repo"
+                  type="text"
+                  value="bootstrap"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-form-item css-dev-only-do-not-override-nqoqt9"
+      >
+        <div
+          class="ant-row ant-form-item-row css-dev-only-do-not-override-nqoqt9"
+        >
+          <div
+            class="ant-col ant-form-item-label css-dev-only-do-not-override-nqoqt9"
+          >
+            <label
+              class=""
+              for="edit_owner"
+              title="Имя владельца"
+            >
+              Имя владельца
+            </label>
+          </div>
+          <div
+            class="ant-col ant-form-item-control css-dev-only-do-not-override-nqoqt9"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <input
+                  class="ant-input css-dev-only-do-not-override-nqoqt9 ant-input-outlined"
+                  id="edit_owner"
+                  type="text"
+                  value="twbs"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-form-item submit css-dev-only-do-not-override-nqoqt9"
+      >
+        <div
+          class="ant-row ant-form-item-row css-dev-only-do-not-override-nqoqt9"
+        >
+          <div
+            class="ant-col ant-form-item-control css-dev-only-do-not-override-nqoqt9"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <button
+                  class="ant-btn css-dev-only-do-not-override-nqoqt9 ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+                  type="submit"
+                >
+                  <span>
+                    Сохранить
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
