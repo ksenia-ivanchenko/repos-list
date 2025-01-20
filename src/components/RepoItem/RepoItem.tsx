@@ -13,7 +13,7 @@ export const RepoItem: FC<TRepoItemProps> = ({ repo }) => {
     const [progressBarPercent, setProgressBarPercent] = useState(100);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const { requestError } = useSelector((state) => state.repo);
-    
+
     useEffect(() => {
         if (deleting) {
             const timeout = setTimeout(() => {
@@ -98,7 +98,9 @@ export const RepoItem: FC<TRepoItemProps> = ({ repo }) => {
                             </div>
                             <span data-testid="update">
                                 обновлено{" "}
-                                {new Date(repo.updated_at).toLocaleString()}
+                                {new Date(repo.updated_at).toLocaleString(
+                                    "ru-RU"
+                                )}
                             </span>
                         </div>
                     </div>

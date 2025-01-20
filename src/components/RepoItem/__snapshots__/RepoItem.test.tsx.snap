@@ -151,7 +151,7 @@ exports[`RepoItem should create RepoItem 1`] = `
             >
               обновлено
                
-              1/18/2025, 1:41:46 PM
+              18.01.2025, 13:41:46
             </span>
           </div>
         </div>
@@ -305,7 +305,7 @@ exports[`RepoItem should create RepoItem 1`] = `
           >
             обновлено
              
-            1/18/2025, 1:41:46 PM
+            18.01.2025, 13:41:46
           </span>
         </div>
       </div>
