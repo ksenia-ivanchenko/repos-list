@@ -9,4 +9,8 @@ module.exports = {
         "\\.module\\.css$": "identity-obj-proxy",
         "\\.css$": "identity-obj-proxy",
     },
+    collectCoverage: true,
+    coverageDirectory: 'coverage',
+    coverageProvider: 'v8'
+
 };

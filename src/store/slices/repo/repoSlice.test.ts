@@ -1,7 +1,11 @@
 import { repoReducer, deleteRepo, editRepo, clearRepos } from "./repoSlice";
 import { mockGetRepo } from "../../../tests/mock/mockGetRepos";
+import { store } from "../../../store";
 import { getRepos } from "./repoActions";
+import axios from "axios";
+import { act } from "@testing-library/react";
 
+jest.mock("axios");
 const initialState = {
     repos: mockGetRepo.items,
     loading: false,
@@ -76,5 +80,40 @@ describe("getRepos extra reducer", () => {
             ...initialState,
             requestError: "request rejected",
         });
+    });
+});
+
+describe("getRepos async action", () => {
+    it("should fetch repos successfully", async () => {
+        const mockReposData = {
+            items: mockGetRepo.items,
+        };
+        (axios.get as jest.Mock).mockResolvedValueOnce({
+            data: mockReposData,
+        });
+
+        await act(async () => {
+            await store.dispatch(getRepos({ page: 1 }));
+        });
+
+        expect(axios.get).toHaveBeenCalledWith(
+            "https://api.github.com/search/repositories?per_page=40&sort=forks&page=1&q=javascript"
+        );
+
+        const state = store.getState();
+        expect(state.repo.repos).toEqual(mockReposData.items);
+    });
+
+    it("should handle error correctly", async () => {
+        const mockError = new Error("Network Error");
+        (axios.get as jest.Mock).mockRejectedValueOnce(mockError);
+
+        await act(async () => {
+            await store.dispatch(getRepos({ page: 1 }));
+        });
+
+        const state = store.getState();
+        expect(state.repo.loading).toBe(false);
+        expect(state.repo.requestError).toEqual(mockError.message);
     });
 });

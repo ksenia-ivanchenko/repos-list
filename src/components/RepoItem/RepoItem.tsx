@@ -12,8 +12,8 @@ export const RepoItem: FC<TRepoItemProps> = ({ repo }) => {
     const [deleting, setDeleting] = useState(false);
     const [progressBarPercent, setProgressBarPercent] = useState(100);
     const [isModalOpen, setIsModalOpen] = useState(false);
-
     const { requestError } = useSelector((state) => state.repo);
+    
     useEffect(() => {
         if (deleting) {
             const timeout = setTimeout(() => {

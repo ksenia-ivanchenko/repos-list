@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should create App 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="main"
+      >
+        <span>
+          Отсортировать по: 
+        </span>
+        <div
+          class="ant-select ant-select-outlined select css-dev-only-do-not-override-nqoqt9 ant-select-single ant-select-show-arrow"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-wrap"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+                title="количеству форков"
+              >
+                количеству форков
+              </span>
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+        <ul
+          class="list"
+        >
+          <div
+            aria-busy="true"
+            aria-live="polite"
+            class="ant-spin ant-spin-lg ant-spin-spinning css-dev-only-do-not-override-nqoqt9"
+          >
+            <span
+              aria-label="loading"
+              class="anticon anticon-loading anticon-spin ant-spin-dot"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="loading"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="0 0 1024 1024"
+                width="1em"
+              >
+                <path
+                  d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+                />
+              </svg>
+            </span>
+          </div>
+        </ul>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="main"
+    >
+      <span>
+        Отсортировать по: 
+      </span>
+      <div
+        class="ant-select ant-select-outlined select css-dev-only-do-not-override-nqoqt9 ant-select-single ant-select-show-arrow"
+      >
+        <div
+          class="ant-select-selector"
+        >
+          <span
+            class="ant-select-selection-wrap"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="количеству форков"
+            >
+              количеству форков
+            </span>
+          </span>
+        </div>
+        <span
+          aria-hidden="true"
+          class="ant-select-arrow"
+          style="user-select: none;"
+          unselectable="on"
+        >
+          <span
+            aria-label="down"
+            class="anticon anticon-down ant-select-suffix"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="down"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+              />
+            </svg>
+          </span>
+        </span>
+      </div>
+      <ul
+        class="list"
+      >
+        <div
+          aria-busy="true"
+          aria-live="polite"
+          class="ant-spin ant-spin-lg ant-spin-spinning css-dev-only-do-not-override-nqoqt9"
+        >
+          <span
+            aria-label="loading"
+            class="anticon anticon-loading anticon-spin ant-spin-dot"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="loading"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+            >
+              <path
+                d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+              />
+            </svg>
+          </span>
+        </div>
+      </ul>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

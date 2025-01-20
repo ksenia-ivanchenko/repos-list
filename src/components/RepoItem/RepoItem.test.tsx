@@ -1,7 +1,7 @@
 import { RepoItem } from "./RepoItem";
 import { fireEvent, render, act, cleanup } from "@testing-library/react";
 import * as reduxHooks from "react-redux";
-import { deleteRepo } from "../../store/slices"; 
+import { deleteRepo } from "../../store/slices";
 import { mockGetRepo } from "../../tests/mock/mockGetRepos";
 import { screen } from "@testing-library/react";
 
@@ -16,7 +16,7 @@ const mockedUseSelector = jest.spyOn(reduxHooks, "useSelector");
 
 describe("RepoItem", () => {
     afterEach(() => cleanup());
-    
+
     beforeEach(() => {
         mockedUseSelector.mockReturnValue(jest.fn());
     });
@@ -113,5 +113,20 @@ describe("edit RepoItem", () => {
 
         expect(screen.getByTestId("edit-modal")).toBeInTheDocument();
         expect(screen.getByTestId("edit-form")).toBeInTheDocument();
+    });
+
+    it("should close modal", () => {
+        mockedUseDispatch.mockReturnValue(jest.fn());
+
+        render(<RepoItem repo={mockGetRepo.items[0]}></RepoItem>);
+
+        fireEvent.click(screen.getByTestId("edit-button"));
+
+        const closeButton = screen
+            .getByTestId("edit-modal")
+            .querySelector(".ant-modal-close");
+
+        fireEvent.click(closeButton);
+        expect(screen.queryByTestId("edit-modal")).not.toBeInTheDocument();
     });
 });

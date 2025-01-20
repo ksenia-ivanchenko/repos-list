@@ -4,6 +4,11 @@ export type TGetReposRequestData = {
     sortQuery?: TSortParams;
 };
 
+export type TGetReposResponse = {
+    total_count: number;
+    items: TRepo[];
+};
+
 export type TRepo = {
     id: number;
     name: string;
